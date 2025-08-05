@@ -51,8 +51,8 @@ document.getElementById('finalizar').addEventListener('click', () => {
 
   document.getElementById('confirmar').onclick = () => {
     const texto = encodeURIComponent(mensagem);
-    const numeroWhatsApp = "5561999999999"; // coloque o número real
-    window.open(`https://wa.me/${5561992118264}?text=${texto}`, "_blank");
+    const numeroWhatsApp = "556199164794"; // coloque o número real
+    window.open(`https://wa.me/${556199164794}?text=${texto}`, "_blank");
     popup.style.display = 'none';
   };
 

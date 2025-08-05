@@ -146,6 +146,12 @@ footer {
   flex-wrap: wrap;
 }
 
+footer a {
+  color: #8B0000; /* Vermelho escuro */
+  text-decoration: none; /* Remove o sublinhado (opcional) */
+}
+
+
 footer img {
   width: 50px;
 }
