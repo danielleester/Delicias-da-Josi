@@ -20,8 +20,8 @@ body {
   padding: 20px;
 }
 .banner img {
-  width: 100%;
-  max-height: 200px;
+  width: 99%;
+  max-height: 350px;
   object-fit: cover;
   border-radius: 8px;
 }
