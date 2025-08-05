@@ -1,0 +1,121 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Delícias da Josi</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="banner">
+    <img src="img/banner.png" alt="Doces da Josi">
+  </header>
+
+  <h2 class="section-title">Trufas</h2>
+  <section class="produtos">
+    <div class="card" data-nome="Brigadeiro" data-preco="3.50">
+      <div class="img">
+        <img src="img/trufa.jpg" alt="Trufa de Brigadeiro">
+      </div>
+      <h3>Brigadeiro</h3>
+      <p>R$ 3,50</p>
+      <div class="qtd">
+        <button class="menos">-</button>
+        <span class="quantidade">0</span>
+        <button class="mais">+</button>
+      </div>
+    </div>
+
+    <div class="card" data-nome="Beijinho" data-preco="3.50">
+      <div class="img">
+        <img src="img/trufa.jpg" alt="Trufa de Beijinho">
+      </div>
+      <h3>Beijinho</h3>
+      <p>R$ 3,50</p>
+      <div class="qtd">
+        <button class="menos">-</button>
+        <span class="quantidade">0</span>
+        <button class="mais">+</button>
+      </div>
+    </div>
+
+    <div class="card" data-nome="Oreo" data-preco="3.50">
+      <div class="img">
+        <img src="img/trufa.jpg" alt="Trufa de Oreo">
+      </div>
+      <h3>Oreo</h3>
+      <p>R$ 3,50</p>
+      <div class="qtd">
+        <button class="menos">-</button>
+        <span class="quantidade">0</span>
+        <button class="mais">+</button>
+      </div>
+    </div>
+
+    <div class="card" data-nome="Maracujá" data-preco="3.50">
+      <div class="img">
+        <img src="img/trufa.jpg" alt="Trufa de Maracujá">
+      </div>
+      <h3>Maracujá</h3>
+      <p>R$ 3,50</p>
+      <div class="qtd">
+        <button class="menos">-</button>
+        <span class="quantidade">0</span>
+        <button class="mais">+</button>
+      </div>
+    </div>
+  </section>
+
+  <h2 class="section-title">Bolo no Pote</h2>
+  <section class="produtos">
+    <div class="card" data-nome="Brigadeiro" data-preco="10.00">
+      <div class="img">
+        <img src="img/bolo no pote.png" alt="Bolo no Pote de Brigadeiro">
+      </div>
+      <h3>Brigadeiro</h3>
+      <p>R$ 10,00</p>
+      <div class="qtd">
+        <button class="menos">-</button>
+        <span class="quantidade">0</span>
+        <button class="mais">+</button>
+      </div>
+    </div>
+
+    <div class="card" data-nome="Beijinho" data-preco="10.00">
+      <div class="img">
+        <img src="img/bolo no pote.png" alt="Bolo no Pote de Beijinho">
+      </div>
+      <h3>Beijinho</h3>
+      <p>R$ 10,00</p>
+      <div class="qtd">
+        <button class="menos">-</button>
+        <span class="quantidade">0</span>
+        <button class="mais">+</button>
+      </div>
+    </div>
+  </section>
+
+  <section class="pedido">
+    <input type="text" id="nomeCliente" placeholder="Digite o seu nome" required>
+    <button id="finalizar">Finalizar pedido</button>
+  </section>
+
+  <div class="popup" id="popup">
+    <div class="popup-content">
+      <p>Para confirmar a sua compra você será redirecionado para o WhatsApp.</p>
+      <button id="confirmar">Confirmar</button>
+      <button id="cancelar">Cancelar</button>
+    </div>
+  </div>
+
+  <footer>
+    <p>© 2025 Todos os direitos reservados. | Desenvolvido por 
+      <a href="https://instagram.com/seuPerfil" target="_blank">Danielle Ester</a>
+    </p>
+    <img src="img/cupcake.png" alt="Cupcake">
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
